@@ -2,8 +2,6 @@
 var
   React $ require :react
 
-require :./tabs.css
-
 var
   div $ React.createFactory :div
   Tabs $ React.createFactory $ require :./tabs

@@ -21,7 +21,6 @@ var
   :module $ object
     :loaders $ array
       object (:test /\.cirru$) (:loader :cirru-script) (:ignore /node_modules)
-      object (:test /\.css$) (:loader :style!css)
 
   :plugins $ array
     new webpack.optimize.CommonsChunkPlugin :vendor :vendor.js

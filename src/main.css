@@ -1,8 +1,15 @@
 
+@import url(tabs.css);
+
 body {
   margin: 0;
+  font-family: HelveticaNeue-Light;
 }
 
 body * {
   box-sizing: border-box;
+}
+
+body {
+  padding: 200px;
 }

@@ -1,10 +1,32 @@
 
-Workflow based on Webpack & CirruScript
+React Tabs for Origami UI
 ----
 
-Scaffold for personal projects.
+Tabs
+
+Demo: http://repo.tiye.me/react-origami-tabs
 
 ### Usage
+
+```
+npm i --save react-origami-tabs
+```
+
+JavaScript entry
+
+```coffee
+require 'react-origami-tabs'
+```
+
+CSS entry
+
+```css
+@import url('~react-origami-tabs/src/tabs.css');
+```
+
+You may need `autoprefixer` to compile CSS.
+
+### Develop
 
 * Development
 

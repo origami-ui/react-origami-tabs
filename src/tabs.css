@@ -6,23 +6,24 @@
 }
 
 .react-origami-tabs .tab {
-    font-size: 16px;
-    width: 200px;
+    font-size: 14px;
+    width: 120px;
     text-align: center;
     line-height: 2em;
-    background-color: hsl(240,90%,90%);
+    background-color: hsl(240,90%,94%);
     color: white;
     position: relative;
-    margin-right: 32px;
+    margin-right: 28px;
     cursor: pointer;
 }
 
+.react-origami-tabs .tab.is-selected,
 .react-origami-tabs .tab:hover {
-    background-color: hsl(240,90%,95%);
+    background-color: hsl(240, 90%, 84%);
 }
-
+.react-origami-tabs .tab.is-selected:after,
 .react-origami-tabs .tab:hover:after {
-    border-bottom-color: hsl(240,90%,95%);
+    border-bottom-color: hsl(240,90%,84%);
 }
 
 .react-origami-tabs .tab:after {
@@ -31,8 +32,8 @@
   left: 100%;
   top: 0;
   border-top: 0 solid transparent;
-  border-right: 32px solid transparent;
-  border-bottom: 32px solid hsl(240, 90%, 90%);
+  border-right: 28px solid hsla(0, 0%, 0%, 0);
+  border-bottom: 28px solid hsl(240, 90%, 94%);
   border-left: 0px solid transparent;
   height: 0px;
   display: inline-block;
